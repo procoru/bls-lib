@@ -1,0 +1,155 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - standard > eslint-plugin-import > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - standard > eslint > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - nyc > istanbul-lib-source-maps > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > tiny-lr > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-core > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - standard > eslint-plugin-import > eslint-module-utils > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - standard > eslint-plugin-import > eslint-import-resolver-node > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babelify > babel-core > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - nyc > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-core > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > micromatch > snapdragon > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > micromatch > extglob > snapdragon > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > micromatch > braces > snapdragon > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > micromatch > extglob > expand-brackets > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babelify > babel-core > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - nyc > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babelify > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babelify > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > debug:
+        patched: '2019-12-11T01:13:51.179Z'
+  'npm:extend:20180424':
+    - coveralls > request > extend:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > remark > unified > extend:
+        patched: '2019-12-11T01:13:51.179Z'
+    - documentation > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-11T01:13:51.179Z'
+  'npm:hoek:20180212':
+    - coveralls > request > hawk > hoek:
+        patched: '2019-12-11T01:13:51.179Z'
+    - coveralls > request > hawk > boom > hoek:
+        patched: '2019-12-11T01:13:51.179Z'
+    - coveralls > request > hawk > sntp > hoek:
+        patched: '2019-12-11T01:13:51.179Z'
+    - coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-12-11T01:13:51.179Z'
+  'npm:stringstream:20180511':
+    - coveralls > request > stringstream:
+        patched: '2019-12-11T01:13:51.179Z'

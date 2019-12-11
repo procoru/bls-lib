@@ -8,7 +8,9 @@
     "coverage": "nyc npm test",
     "lint": "standard",
     "test": "node ./tests/index.js",
-    "build:docs": "documentation build --github  -f md ./index.js > ./docs/index.md"
+    "build:docs": "documentation build --github  -f md ./index.js > ./docs/index.md",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "bls",
@@ -20,9 +22,9 @@
   "devDependencies": {
     "array-shuffle": "^1.0.1",
     "coveralls": "^3.0.0",
-    "documentation": "^5.2.0",
-    "nyc": "^11.2.1",
-    "standard": "^10.0.0",
+    "documentation": "^5.4.0",
+    "nyc": "^13.2.0",
+    "standard": "^11.0.0",
     "tape": "^4.0.3"
   },
   "repository": {
@@ -47,6 +49,8 @@
     ]
   },
   "dependencies": {
-    "nop": "^1.0.0"
-  }
+    "nop": "^1.0.0",
+    "snyk": "^1.258.1"
+  },
+  "snyk": true
 }
